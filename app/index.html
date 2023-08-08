@@ -15,10 +15,24 @@
   </head>
   <body>
 
-    <header>
-      <h1>ready.</h1>
-      <small>v1.2.0</small>
-    </header>
+    <div class="device">
+      <nav>
+        <svg fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </nav>
+
+      <countdown>
+        <svg height="28" width="28">
+          <circle cx="14" cy="14" r="12.5" stroke="black" stroke-width="1" fill="transparent" />
+        </svg>
+        <ul>
+          <li><p id="countdown-hrs">00</p><span> hrs</span></li>
+          <li><p id="countdown-min">00</p><span> min</span></li>
+          <li><p id="countdown-seg">00</p><span> seg</span></li>
+        </ul>
+      </countdown> 
+    </div>
     
   </body>
 </html>

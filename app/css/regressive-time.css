@@ -1,0 +1,40 @@
+countdown {
+  --border-color: rgba(204,204,204, 1);
+  --font-text-bold: SantanderTextBold;
+  --font-text: SantanderText;
+  --18px: 1.125rem;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: center;
+  gap: 1rem;
+
+  block-size: 100%;
+  height: fit-content;
+
+
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  font-family: var(--font-text);
+  font-size: var(--18px);
+
+  & > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    height: fit-content;
+    padding: 0;
+
+    & li {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+
+      & p {
+        font-weight: 700;
+      }
+    }
+  }
+}

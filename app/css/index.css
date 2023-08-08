@@ -1,3 +1,5 @@
+@import "device.css";
+@import "regressive-time.css";
 /* 
 (bundle from remote urls) 
 @import '//css-from-url';
@@ -81,3 +83,4 @@ p {
 ::selection {
   background-color: var(--brand);
 }
+
